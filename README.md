@@ -12,6 +12,11 @@ TruthFinder is a web application designed to detect fake news by analyzing trend
 - `transformers`: For using pre-trained models for claim validation.
 - `json`: For handling JSON data.
 - `requests`: For making HTTP requests to fetch data from APIs.
+- `google-api-python-client`: For interacting with the YouTube API.
+- `youtube-transcript-api`: For fetching video transcripts.
+- `googletrans`: For translating text.
+- `langdetect`: For detecting the language of the text.
+- `praw`: For interacting with the Reddit API.
 
 ### Model Requirements
 - Pre-trained language model (e.g., `microsoft/Phi-3-mini-4k-instruct`) for validating claims.
@@ -27,7 +32,7 @@ TruthFinder is a web application designed to detect fake news by analyzing trend
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Prathameshsci369/TruthFinder.git
    cd TruthFinder
    ```
 
