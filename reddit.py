@@ -15,11 +15,11 @@ nltk.download('stopwords')
 class RedditScraper:
     def __init__(self):
         self.reddit = praw.Reddit(
-            client_id="Bagl2Zn_wAeB5sIOC3xpQg",
-            client_secret="IT4P2CBUABMWO-lJhqoS_PV3CCSXWg",
-            user_agent="project by u/PotatoWorth7301",
-            username="PotatoWorth7301",
-            password='#-9V}iV=cN:m"+b'
+            client_id="ENTER_YOUR_ID",
+            client_secret="ENTER_YOUR_SECRET",
+            user_agent="project by u/YOUR_REDDIT_USERNAME",
+            username="YOUR_REDDIT_USERNAME",
+            password="YOUR_REDDIT_ACCOUNT_PASSWORD"
         )
 
     def rate_limit(self):
