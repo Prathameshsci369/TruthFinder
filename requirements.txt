@@ -2,7 +2,7 @@ streamlit
 nltk
 spacy
 torch
-transformers
+transformers==4.50.0
 requests
 json
 praw
